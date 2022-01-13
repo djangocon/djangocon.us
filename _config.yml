@@ -1,0 +1,76 @@
+# main text of home
+name: DjangoCon US
+bio:
+
+# twitter summary info
+description: "DjangoCon US description here"
+
+favicon: https://fav.farm/✨
+
+# if it's an external image, update below for true
+# better with square images
+external-image: true
+picture: https://avatars.githubusercontent.com/u/2891658?v=4
+url: "https://djangocon.us"
+enforce_ssl: "djangocon.us"
+permalink: /:title/
+
+# To enable google analytics, supply your token below
+# analytics-google: 'UA-MYANALYTICS'
+
+# if you have any of social links below, uncomment the line
+# email:
+# facebook:
+flickr: djangocon
+github: djangocon
+# instagram: djangocon
+twitter:
+  card: summary_large_image
+  username: djangocon
+youtube: djangoconus
+
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
+
+# if you do/don't need pagination, toggle 'enabled' between true/false below
+pagination:
+  enabled: false
+  sort_reverse: true # display recent posts first
+  title: ":title" # Changing this will mess up the header display logic
+  per_page: 5
+  permalink: "/:num/" # pagination link that will be appended
+
+# if you don't need projects, comment the *projects* configs below
+#projects: true
+
+# if you don't need "about" or "blog", comment them out below
+about: false
+blog: false
+
+plugins:
+- jekyll-gist
+- jekyll-remote-theme
+- jekyll-seo-tag
+- jekyll-sitemap
+- jemoji
+
+jekyll-mentions:
+  base_url: https://github.com
+
+compress_html:
+  ignore:
+    envs:
+      - development
+      - stage
+
+exclude:
+- bin
+- docker-compose.yml
+- Gemfile
+- Gemfile.lock
+- justfile
+- node_modules
+- README.md
+- vendor
