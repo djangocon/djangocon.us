@@ -1,18 +1,23 @@
 - title: "DjangoCon US 2022: San Diego - Coming soon"
   url: https://2022.djangocon.us
-  css_class: fas fa-briefcase
+  css_class: fas fa-ticket-alt
 
-- title: "Follow us on Twitter (@djangocon)"
+- title: "Join our mailing list for updates"
+  url: https://djangocon.us11.list-manage.com/subscribe?u=9ae17a6371d9ee8412eb23910&id=b106911995
+  css_class: fas fa-envelope-square
+  nofollow: true
+
+- title: "Follow us on Twitter (@djangocon) for updates"
   url: https://twitter.com/djangocon
   css_class: fab fa-twitter
   nofollow: true
 
-- title: "Videos on YouTube"
+- title: "250+ Videos on YouTube"
   url: https://www.youtube.com/djangoconus
   css_class: fab fa-youtube
   nofollow: true
 
-- title: "Photos on Flickr"
+- title: "6k+ Photos on Flickr"
   url: https://www.flickr.com/photos/djangocon
   css_class: fab fa-flickr
   nofollow: true
@@ -24,27 +29,31 @@
 
 - title: "DjangoCon US 2021: Online"
   url: https://2021.djangocon.us
-  css_class: fas fa-briefcase
+  css_class: fas fa-tv
+
+- title: "DjangoCon US 2020: San Diego (Canceled)"
+  url: https://2020.djangocon.us
+  css_class: far fa-times-circle
 
 - title: "DjangoCon US 2019: San Diego"
   url: https://2019.djangocon.us
-  css_class: fas fa-briefcase
+  css_class: fas fa-map-marker
 
 - title: "DjangoCon US 2018: San Diego"
   url: https://2018.djangocon.us
-  css_class: fas fa-briefcase
+  css_class: fas fa-map-marker
 
 - title: "DjangoCon US 2017: Spokane"
   url: https://2017.djangocon.us
-  css_class: fas fa-briefcase
+  css_class: fas fa-map-marker
 
 - title: "DjangoCon US 2016: Philly"
   url: https://2016.djangocon.us
-  css_class: fas fa-briefcase
+  css_class: fas fa-map-marker
 
 - title: "DjangoCon US 2015: Austin"
   url: https://2015.djangocon.us
-  css_class: fas fa-briefcase
+  css_class: fas fa-map-marker
 
 - title: "Produced by DEFNA"
   url: https://www.defna.org
