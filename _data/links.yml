@@ -1,5 +1,5 @@
-- title: "DjangoCon US 2022: San Diego - Thank you for attending!"
-  url: https://2022.djangocon.us
+- title: "DjangoCon US 2023: Coming Soon"
+  url: https://2023.djangocon.us
   css_class: fas fa-ticket-alt
 
 - title: "Join our mailing list for updates"
@@ -26,6 +26,10 @@
   url: https://github.com/djangocon
   css_class: fab fa-github
   nofollow: true
+
+- title: "DjangoCon US 2022: San Diego - / Hybrid"
+  url: https://2022.djangocon.us
+  css_class: fas fa-map-marker
 
 - title: "DjangoCon US 2021: Online"
   url: https://2021.djangocon.us
