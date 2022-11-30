@@ -12,6 +12,11 @@
   css_class: fab fa-twitter
   nofollow: true
 
+- title: "Follow us on Mastodon for updates"
+  url: https://fosstodon.org/@djangocon
+  css_class: fab fa-mastodon
+  nofollow: true
+
 - title: "250+ Videos on YouTube"
   url: https://www.youtube.com/djangoconus
   css_class: fab fa-youtube
