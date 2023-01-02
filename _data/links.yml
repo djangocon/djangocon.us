@@ -7,32 +7,29 @@
   css_class: fas fa-envelope-square
   nofollow: true
 
-- title: "Follow us on Twitter (@djangocon) for updates"
+- title: "Follow @djangocon on Twitter"
   url: https://twitter.com/djangocon
   css_class: fab fa-twitter
   nofollow: true
 
-- title: "Follow us on Mastodon for updates"
+- title: "Follow @djangocon@fosstodon.org"
   url: https://fosstodon.org/@djangocon
   css_class: fab fa-mastodon
   nofollow: true
 
 - title: "250+ Videos on YouTube"
   url: https://www.youtube.com/djangoconus
-  css_class: fab fa-youtube
   nofollow: true
 
 - title: "6k+ Photos on Flickr"
   url: https://www.flickr.com/photos/djangocon
-  css_class: fab fa-flickr
   nofollow: true
 
 - title: "Follow us on GitHub (@djangocon)"
   url: https://github.com/djangocon
-  css_class: fab fa-github
   nofollow: true
 
-- title: "DjangoCon US 2022: San Diego - / Hybrid"
+- title: "DjangoCon US 2022: San Diego / Hybrid"
   url: https://2022.djangocon.us
   css_class: fas fa-map-marker
 
