@@ -11,7 +11,7 @@
     just bootstrap
 
 @clean:
-    rm -rf .vendor Gemfile.lock
+    rm -rf .vendor _site Gemfile.lock
 
 # opens a console
 @console:
