@@ -1,5 +1,7 @@
+assets:
+  cachebust: hard
+
 # main text of home
-# name: DjangoCon US
 title: DjangoCon US
 bio:
 
