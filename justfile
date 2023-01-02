@@ -17,6 +17,9 @@
 @console:
     echo "TODO: console"
 
+@restart:
+    docker-compose restart
+
 # starts app
 @server *ARGS:
     docker-compose up {{ ARGS }}
