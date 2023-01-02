@@ -1,0 +1,7 @@
+- output: ./assets/images/screenshot.png
+  quality: 80
+  url: https://djangocon.us/
+
+- output: ./assets/images/preview.png
+  quality: 80
+  url: https://djangocon.us/preview/

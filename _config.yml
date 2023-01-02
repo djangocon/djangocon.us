@@ -1,5 +1,6 @@
 # main text of home
-name: DjangoCon US
+# name: DjangoCon US
+title: DjangoCon US
 bio:
 
 # twitter summary info
@@ -58,6 +59,8 @@ plugins:
 
 jekyll-mentions:
   base_url: https://github.com
+
+remote_theme: jefftriplett/webology.dev
 
 compress_html:
   ignore:
