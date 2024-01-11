@@ -1,24 +1,24 @@
-- title: "DjangoCon US 2023: Durham, North Carolina"
-  url: https://2023.djangocon.us
+- title: "DjangoCon US 2024: Coming soon"
+  url: https://2024.djangocon.us
   css_class: fas fa-ticket-alt
-  
-- title: "Book your hotel today"
-  url: https://www.marriott.com/event-reservations/reservation-link.mi?id=1674740649947&key=GRP&app=resvlink
-  css_class: fas fa-hotel
+
+# - title: "Book your hotel today"
+#   url: https://www.marriott.com/event-reservations/reservation-link.mi?id=1674740649947&key=GRP&app=resvlink
+#   css_class: fas fa-hotel
 
 - title: "Join our mailing list for updates"
   url: https://djangocon.us11.list-manage.com/subscribe?u=9ae17a6371d9ee8412eb23910&id=b106911995
   css_class: fas fa-envelope-square
   nofollow: true
 
-- title: "Follow @djangocon on Twitter"
-  url: https://twitter.com/djangocon
-  css_class: fab fa-twitter
-  nofollow: true
-
 - title: "Follow @djangocon@fosstodon.org"
   url: https://fosstodon.org/@djangocon
   css_class: fab fa-mastodon
+  nofollow: true
+
+- title: "Follow @djangocon on Twitter"
+  url: https://twitter.com/djangocon
+  css_class: fab fa-twitter
   nofollow: true
 
 - title: "250+ Videos on YouTube"
@@ -32,6 +32,10 @@
 - title: "Follow @djangocon on GitHub"
   url: https://github.com/djangocon
   nofollow: true
+
+- title: "DjangoCon US 2023: Durham, North Carolina"
+  url: https://2023.djangocon.us
+  css_class: fas fa-ticket-alt
 
 - title: "DjangoCon US 2022: San Diego / Hybrid"
   url: https://2022.djangocon.us
