@@ -2,12 +2,8 @@
   url: https://2025.djangocon.us
   css_class: fas fa-ticket-alt
 
-- title: "Book your hotel today"
-  url: https://www.marriott.com/event-reservations/reservation-link.mi?id=1707512209729&key=GRP&app=resvlink
-  css_class: fas fa-hotel
-
 - title: "Join our mailing list for updates"
-  url: https://djangocon.us11.list-manage.com/subscribe?u=9ae17a6371d9ee8412eb23910&id=b106911995
+  url: https://emails.djangocon.us/subscription?f=Gs892S6cdJ676370nkSBxLOWzUsgYKPBcwkEMMvt0rr70f3IeA7634kuMTKJCLrdcgOQHQHdzwqLwvmcETbcm6KWtu9g
   css_class: fas fa-envelope-square
   nofollow: true
 
@@ -32,6 +28,10 @@
 - title: "Follow @djangocon on GitHub"
   url: https://github.com/djangocon
   nofollow: true
+
+- title: "DjangoCon US 2024: Durham, North Carolina"
+  url: https://2024.djangocon.us
+  css_class: fas fa-ticket-alt
 
 - title: "DjangoCon US 2023: Durham, North Carolina"
   url: https://2023.djangocon.us
