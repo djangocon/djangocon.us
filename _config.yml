@@ -47,7 +47,7 @@ pagination:
 
 plugins:
 - jekyll-gist
-- jekyll-remote-theme
+# - jekyll-remote-theme  # now using local theme files
 - jekyll-seo-tag
 - jekyll-sitemap
 - jemoji
@@ -55,7 +55,7 @@ plugins:
 jekyll-mentions:
   base_url: https://github.com
 
-remote_theme: jefftriplett/webology-theme
+# remote_theme: jefftriplett/webology-theme  # now using local theme files
 
 compress_html:
   ignore:

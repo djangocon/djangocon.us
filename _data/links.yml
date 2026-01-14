@@ -1,3 +1,7 @@
+- title: "DjangoCon US 2026"
+  url: https://2026.djangocon.us
+  css_class: fas fa-ticket-alt
+
 - title: "DjangoCon US 2025"
   url: https://2025.djangocon.us
   css_class: fas fa-ticket-alt
