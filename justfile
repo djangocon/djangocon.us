@@ -10,6 +10,7 @@
 @cibuild:
     just bootstrap
 
+# removes generated files
 @clean:
     rm -rf .vendor _site Gemfile.lock
 
@@ -17,6 +18,7 @@
 @console:
     echo "TODO: console"
 
+# restarts all docker services
 @restart:
     docker-compose restart
 
@@ -28,12 +30,15 @@
 @setup:
     just bootstrap
 
+# starts server in detached mode
 @start +ARGS="--detach":
     just server {{ ARGS }}
 
+# stops all docker services
 @stop:
     docker-compose down
 
+# follows docker container logs
 @tail:
     docker-compose logs --follow --tail 100
 
@@ -47,9 +52,11 @@
 
 # ----
 
+# formats the justfile
 @fmt:
     just --fmt --unstable
 
+# formats html and sorts tailwind classes
 @lint:
     djhtml \
         --in-place \
@@ -59,5 +66,6 @@
         --write \
         .
 
+# generates screenshots using shot-scraper
 @screenshots ARGS="--no-clobber":
     shot-scraper multi {{ ARGS }} ./shots.yml
