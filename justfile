@@ -38,6 +38,14 @@
 @stop:
     docker compose down
 
+# starts docker compose services in detached mode
+@up *ARGS:
+    docker compose up --detach {{ ARGS }}
+
+# stops and removes docker compose services
+@down *ARGS:
+    docker compose down {{ ARGS }}
+
 # follows docker container logs
 @tail:
     docker compose logs --follow --tail 100
