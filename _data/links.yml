@@ -4,6 +4,14 @@
       url: https://2026.djangocon.us
       css_class: fas fa-ticket-alt
 
+    - title: "Call for Proposals for 2026"
+      url: https://ti.to/defna/djangocon-us-2026
+      css_class: fas fa-bullhorn
+
+    - title: "Tickets for 2026"
+      url: https://ti.to/defna/djangocon-us-2026
+      css_class: fas fa-ticket-alt
+
 - group: "connect"
   links:
     - title: "Join our mailing list"
