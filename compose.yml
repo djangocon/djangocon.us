@@ -1,0 +1,19 @@
+services:
+
+  caddy:
+    image: caddy:alpine
+    command: caddy file-server --root /srv/_site --listen :8000
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/srv
+
+  jekyll:
+    image: jekyll/jekyll:latest
+    command: jekyll build --drafts --watch
+    environment:
+      - BUNDLE_PATH=/usr/local/bundle
+    init: true
+    volumes:
+      - .:/srv/jekyll:cached
+      - ./.vendor/bundle:/usr/local/bundle:cached
