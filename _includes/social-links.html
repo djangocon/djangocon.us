@@ -65,6 +65,12 @@
     </a>
   {% endif %}
 
+  {% if site.bluesky %}
+    <a class="link" data-title="{{ site.bluesky }}" href="https://bsky.app/profile/{{ site.bluesky }}" rel="nofollow" target="_blank">
+      <i class="fa-brands fa-bluesky"></i>
+    </a>
+  {% endif %}
+
   {% if site.spotify %}
     <a class="link" data-title="open.spotify.com/user/{{ site.spotify }}" href="https://open.spotify.com/user/{{ site.spotify }}" rel="nofollow" target="_blank">
       <i class="fab fa-spotify"></i>
