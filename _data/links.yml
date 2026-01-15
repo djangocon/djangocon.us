@@ -1,9 +1,15 @@
 - group: "current"
+  title: ""
+  style: "list"
   links:
     - title: "DjangoCon US 2026"
       url: https://2026.djangocon.us
       css_class: fas fa-map-marker
 
+- group: "actions"
+  title: ""
+  style: "list"
+  links:
     - title: "Tickets for 2026"
       url: https://ti.to/defna/djangocon-us-2026
       css_class: fas fa-ticket-alt
@@ -18,6 +24,8 @@
       nofollow: true
 
 - group: "connect"
+  title: "Follow Us"
+  style: "grid"
   links:
     - title: "@djangocon@fosstodon.org"
       url: https://fosstodon.org/@djangocon
@@ -26,7 +34,12 @@
 
     - title: "@djangocon.us on Bluesky"
       url: https://bsky.app/profile/djangocon.us
-      css_class: fab fa-bluesky
+      css_class: fa-brands fa-bluesky
+      nofollow: true
+
+    - title: "@djangocon on X/Twitter"
+      url: https://twitter.com/djangocon
+      css_class: fab fa-twitter
       nofollow: true
 
     - title: "466+ Videos on YouTube"
@@ -36,7 +49,7 @@
 
     - title: "13k+ Photos on Flickr"
       url: https://www.flickr.com/photos/djangocon
-      css_class: fas fa-camera
+      css_class: fab fa-flickr
       nofollow: true
 
     - title: "@djangocon on GitHub"
@@ -44,12 +57,9 @@
       css_class: fab fa-github
       nofollow: true
 
-    - title: "@djangocon on X/Twitter"
-      url: https://twitter.com/djangocon
-      css_class: fab fa-twitter
-      nofollow: true
-
 - group: "past"
+  title: "Past Conferences"
+  style: "grid"
   links:
     - title: "2025: Chicago"
       url: https://2025.djangocon.us
@@ -95,9 +105,31 @@
       url: https://2015.djangocon.us
       css_class: fas fa-map-marker
 
-- group: "defna"
+- group: "friends"
+  title: "Other DjangoCons"
+  style: "grid"
   links:
-    - title: "Produced by DEFNA"
+    - title: "DjangoCon Africa"
+      url: https://djangocon.africa
+      css_class: fas fa-globe-africa
+
+    - title: "DjangoCon Australia"
+      url: https://2023.djangocon.com.au
+      css_class: fas fa-globe-asia
+
+    - title: "DjangoCon Europe"
+      url: https://djangocon.eu
+      css_class: fas fa-globe-europe
+
+    - title: "DjangoCongress JP"
+      url: https://djangocongress.jp
+      css_class: fas fa-globe-asia
+
+- group: "defna"
+  title: "Produced by DEFNA"
+  style: "list"
+  links:
+    - title: "DEFNA Website"
       url: https://www.defna.org
       css_class: fas fa-briefcase
 
