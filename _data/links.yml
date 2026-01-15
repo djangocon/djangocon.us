@@ -37,6 +37,11 @@
       css_class: fa-brands fa-bluesky
       nofollow: true
 
+    - title: "DjangoCon US on LinkedIn"
+      url: https://www.linkedin.com/company/djangocon
+      css_class: fab fa-linkedin
+      nofollow: true
+
     - title: "@djangocon on X/Twitter"
       url: https://twitter.com/djangocon
       css_class: fab fa-twitter
