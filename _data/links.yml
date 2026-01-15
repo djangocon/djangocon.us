@@ -2,15 +2,15 @@
   links:
     - title: "DjangoCon US 2026"
       url: https://2026.djangocon.us
+      css_class: fas fa-map-marker
+
+    - title: "Tickets for 2026"
+      url: https://ti.to/defna/djangocon-us-2026
       css_class: fas fa-ticket-alt
 
     - title: "Call for Proposals for 2026"
       url: https://ti.to/defna/djangocon-us-2026
       css_class: fas fa-bullhorn
-
-    - title: "Tickets for 2026"
-      url: https://ti.to/defna/djangocon-us-2026
-      css_class: fas fa-ticket-alt
 
 - group: "connect"
   links:
@@ -48,15 +48,15 @@
   links:
     - title: "2025: Chicago"
       url: https://2025.djangocon.us
-      css_class: fas fa-ticket-alt
+      css_class: fas fa-map-marker
 
     - title: "2024: Durham"
       url: https://2024.djangocon.us
-      css_class: fas fa-ticket-alt
+      css_class: fas fa-map-marker
 
     - title: "2023: Durham"
       url: https://2023.djangocon.us
-      css_class: fas fa-ticket-alt
+      css_class: fas fa-map-marker
 
     - title: "2022: San Diego"
       url: https://2022.djangocon.us
