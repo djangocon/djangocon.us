@@ -12,16 +12,21 @@
       url: https://ti.to/defna/djangocon-us-2026
       css_class: fas fa-bullhorn
 
-- group: "connect"
-  links:
     - title: "Join our mailing list"
       url: https://emails.djangocon.us/subscription?f=Gs892S6cdJ676370nkSBxLOWzUsgYKPBcwkEMMvt0rr70f3IeA7634kuMTKJCLrdcgOQHQHdzwqLwvmcETbcm6KWtu9g
       css_class: fas fa-envelope-square
       nofollow: true
 
+- group: "connect"
+  links:
     - title: "@djangocon@fosstodon.org"
       url: https://fosstodon.org/@djangocon
       css_class: fab fa-mastodon
+      nofollow: true
+
+    - title: "@djangocon.us on Bluesky"
+      url: https://bsky.app/profile/djangocon.us
+      css_class: fab fa-bluesky
       nofollow: true
 
     - title: "466+ Videos on YouTube"
