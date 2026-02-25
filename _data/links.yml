@@ -15,7 +15,7 @@
       css_class: fas fa-ticket-alt
 
     - title: "Call for Proposals for 2026"
-      url: https://ti.to/defna/djangocon-us-2026
+      url: https://pretalx.com/djangocon-us-2026/cfp
       css_class: fas fa-bullhorn
 
     - title: "Join our mailing list"
