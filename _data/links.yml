@@ -62,18 +62,6 @@
       css_class: fab fa-github
       nofollow: true
 
-- group: "future"
-  title: "Future Conferences"
-  style: "grid"
-  links:
-    - title: "2027"
-      url: https://2027.djangocon.us
-      css_class: fas fa-map-marker
-
-    - title: "2028"
-      url: https://2028.djangocon.us
-      css_class: fas fa-map-marker
-
 - group: "past"
   title: "Past Conferences"
   style: "grid"
@@ -120,6 +108,18 @@
 
     - title: "2015: Austin"
       url: https://2015.djangocon.us
+      css_class: fas fa-map-marker
+
+- group: "future"
+  title: "Future Conferences"
+  style: "grid"
+  links:
+    - title: "2027"
+      url: https://2027.djangocon.us
+      css_class: fas fa-map-marker
+
+    - title: "2028"
+      url: https://2028.djangocon.us
       css_class: fas fa-map-marker
 
 - group: "friends"
