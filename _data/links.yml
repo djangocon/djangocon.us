@@ -116,11 +116,11 @@
   links:
     - title: "2027"
       url: https://2027.djangocon.us
-      css_class: fas fa-map-marker
+      css_class: fas fa-calendar-alt
 
     - title: "2028"
       url: https://2028.djangocon.us
-      css_class: fas fa-map-marker
+      css_class: fas fa-calendar-alt
 
 - group: "friends"
   title: "Other DjangoCons"
