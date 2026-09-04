@@ -34,7 +34,10 @@
     @apply grid gap-3 sm:gap-3;
   }
   .link-group--grid .link-group__links {
-    @apply grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
+    @apply flex flex-wrap justify-center;
+  }
+  .link-group--grid .link-item {
+    @apply w-full sm:w-[calc(50%-0.375rem)] lg:w-[calc(33.333%-0.5rem)];
   }
   .link-group--list {
     @apply max-w-md mx-auto w-full;
